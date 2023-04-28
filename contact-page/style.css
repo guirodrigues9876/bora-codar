@@ -69,6 +69,51 @@ form{
 }
 
 .input-wrapper {
+    gap: 10px;
+
+    background: #24243D;
+    border-radius: 5px;
+    padding: 16px 24px;
+}
+
+.input-wrapper input{
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    outline: 0;
+
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #E1E1E6;
+}
+
+.input-wrapper ion-icon{
+    font-size 16px;
+}
+
+.input-wrapper input::placeholder {
+    color: #E1E1E6;
+}
+
+.input-wrapper:focus-within {
+    outline: 2px white solid;
+}
+
+.letter{
+    background-color: gray;
+
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    margin-right 52px;
+
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 19px;
 }
